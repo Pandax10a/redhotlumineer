@@ -1,0 +1,44 @@
+* {
+    border: 0%;
+    padding: 0%;
+}
+img {
+    width: 100%;
+}
+svg {
+    width: 25px;
+    height: 25px;
+    
+}
+
+#headerpage {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-image: url("equipment.jpg");
+    opacity: 0.6;
+    min-height: 35vh;
+    background-position: center;
+    background-size: cover;
+    
+    
+
+}
+
+#headerpage svg {
+    justify-self: end;
+    transform: translate(-60px,40px);
+    
+}
+#headerpage img {
+    height: 25px;
+    width: 40px;
+    transform: translate(60px,40px);
+   
+}
+body {
+    width: 100%;
+    background-color: rgb(82, 19, 184);
+}
+body, header, div {
+    place-items: center;
+}
